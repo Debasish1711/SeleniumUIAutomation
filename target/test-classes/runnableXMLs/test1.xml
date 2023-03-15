@@ -1,0 +1,5 @@
+<suite name="Practice">
+	<test name = "tutorial">
+		<class name = "SearchFunctions"></class>
+	</test>
+</suite>

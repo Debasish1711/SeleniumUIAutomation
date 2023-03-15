@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-15T22:16:45Z" name="Suite" finished-at="2023-03-15T22:17:31Z" duration-ms="46265">
+    <groups>
+    </groups>
+    <test started-at="2023-03-15T22:16:45Z" name="Test" finished-at="2023-03-15T22:17:31Z" duration-ms="46265">
+      <class name="tests.SearchFunctions">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.SearchFunctions@16eccb2e]" started-at="2023-03-16T03:46:45Z" name="launchApplication" finished-at="2023-03-16T03:47:31Z" duration-ms="46209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFullWord(java.util.HashMap)[pri:0, instance:tests.SearchFunctions@16eccb2e]" started-at="2023-03-16T03:47:31Z" name="searchFullWord" data-provider="retriveData" finished-at="2023-03-16T03:47:31Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[] tests.SearchFunctions.retriveData() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.Object;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[] tests.SearchFunctions.retriveData() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.Object;
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:156)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFullWord -->
+      </class> <!-- tests.SearchFunctions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
